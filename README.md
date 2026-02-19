@@ -179,7 +179,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input principal, rate, time/]
-    B --> C[SI="("principal*rate*time")"/100]
+    B --> C["SI=(principal\*rate\*time)/100"]
     C --> D[/Display SI/]
     D --> E(Stop)
 ```
