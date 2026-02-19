@@ -35,7 +35,7 @@ both.
 ```text
 START
     SET count = 1, num_of_subjects = 3, sum = 0
-    WHILE 1 <= num_of_subjects DO
+    WHILE count <= num_of_subjects DO
         INPUT mark
         sum = sum + mark
         count = count + 1
