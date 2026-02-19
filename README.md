@@ -26,9 +26,9 @@ END
 flowchart TD
     A(Start) --> B[/Input number/]
     B --> C{number % 2 == 0?}
-    C -- Yes --> D[/Display "Even"/]
-    C -- No --> E[/Display "No"/]
-    D --> F(End)
+    C -- Yes --> D[/Display "EVEN"/]
+    C -- No --> E[/Display "ODD"/]
+    D --> F(Stop)
     E --> F
 ```
 
@@ -59,6 +59,17 @@ END
 
 [View Flowchart](images/Q2.drawio.png)
 
+```mermaid
+flowchart TD
+    A(Start) --> B[count = 1<br>num_of_subjects = 3<br>sum = 0]
+    B --> C{count <= num_of_subjects}
+    C -- Yes --> D[/Input mark/]
+    D --> E[sum = sum + mark]
+    E --> F[count = count + 1]
+    F --> C
+    C -- No --> G[average = sum / num_of_subjects]
+    G --> H[/Display average/]
+    H --> I(Stop)
 ---
 
 ## 3. Display Multiplication Table
