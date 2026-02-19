@@ -315,7 +315,14 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[/Input number/]
+    B --> C[factorial = 1<br>count = number]
+    C --> D{While<br>count>=1}
+    D -- Yes --> E[factorial = factorial x count]
+    E --> F[count = count - 1]
+    F --> D
+    D -- No --> G[/Display factorial/]
+    G --> H(Stop)
 ```
 
 ---
