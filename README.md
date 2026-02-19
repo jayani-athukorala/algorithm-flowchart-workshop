@@ -5,7 +5,7 @@
 Design an algorithm and flowchart that take a number as input and
 determine whether it is even or odd.
 
-### ✔ Pseudocode
+### Pseudocode
 
 ```text
 START
@@ -18,7 +18,9 @@ START
 END
 ```
 
-### ✔ Flowchart
+### Flowchart
+
+![Flowchart](images/Q1.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -55,6 +57,12 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q2.drawio.png)
+
+```mermaid
+flowchart TD
+```
+
 ---
 
 ## 3. Display Multiplication Table
@@ -78,6 +86,7 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q3.drawio.png)
 ---
 
 ## 4. Positive, Negative, or Zero Check
@@ -101,6 +110,8 @@ END
 ```
 
 ### ✔ Flowchart
+
+![Flowchart](images/Q4.drawio.png)
 
 ---
 
@@ -129,6 +140,7 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q5.drawio.png)
 ---
 
 ## 6. Average Temperature Calculation
@@ -153,6 +165,8 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q6.drawio.png)
+
 ---
 
 ## 7. Calculate Area of a Rectangle
@@ -172,6 +186,8 @@ END
 ```
 
 ### ✔ Flowchart
+
+![Flowchart](images/Q7.drawio.png)
 
 ---
 
@@ -195,6 +211,8 @@ END
 ```
 
 ### ✔ Flowchart
+
+![Flowchart](images/Q8.drawio.png)
 
 ---
 
@@ -220,6 +238,8 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q9.drawio.png)
+
 ---
 
 ## 10. Calculate Discount on Purchase
@@ -243,4 +263,5 @@ END
 
 ### ✔ Flowchart
 
+![Flowchart](images/Q10.drawio.png)
 ---
