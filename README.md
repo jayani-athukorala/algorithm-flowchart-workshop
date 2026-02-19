@@ -179,7 +179,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input principal, rate, time/]
-    B --> C[SI = (principal x rate x time) / 100]
+    B --> C[SI = ( principal x rate x time ) / 100]
     C --> D[/Display SI/]
     D --> E(Stop)
 ```
@@ -284,7 +284,7 @@ flowchart TD
     C -- Yes --> D[/Display "Pass"/]
     C -- No --> E[/Display "Fail"/]
     E --> F(Stop)
-    C --> F
+    D --> F
 ```
 
 ---
@@ -318,7 +318,7 @@ flowchart TD
     A(Start) --> B[/Input number/]
     B --> C[factorial = 1<br>count = number]
     C --> D{While<br>count>=1}
-    D -- Yes --> E[factorial = factorial x count]
+    D -- Yes --> E[factorial = factorial * count]
     E --> F[count = count - 1]
     F --> D
     D -- No --> G[/Display factorial/]
@@ -352,7 +352,13 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[discount = 0]
+    B --> C[/Input purchase_amount/]
+    C --> D{purchase_amount > 1000}
+    D -- Yes --> E[discount = purchase_amount * 10 / 100]
+    D -- No --> F[/Display discount/]
+    E --> F
+    F --> G(Stop)
 ```
 
 ---
