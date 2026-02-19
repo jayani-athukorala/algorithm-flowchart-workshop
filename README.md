@@ -62,7 +62,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[count = 1<br>num_of_subjects = 3<br>sum = 0]
-    B --> C{count <= num_of_subjects}
+    B --> C{While<br>count <= num_of_subjects}
     C -- Yes --> D[/Input mark/]
     D --> E[sum = sum + mark]
     E --> F[count = count + 1]
@@ -70,6 +70,7 @@ flowchart TD
     C -- No --> G[average = sum / num_of_subjects]
     G --> H[/Display average/]
     H --> I(Stop)
+```
 ---
 
 ## 3. Display Multiplication Table
@@ -97,7 +98,14 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[multiplier = 1]
+    B --> C[/Input multiplicand/]
+    C --> D{While<br>multiplier <= 10}
+    D -- Yes --> E[product = multiplicand * multiplier]
+    E --> F[/Display product/]
+    F --> G[multiplier = multiplier + 1]
+    G --> D
+    D -- No --> H(Stop)
 ```
 
 ---
