@@ -20,7 +20,17 @@ END
 
 ### Flowchart
 
-![Flowchart](images/Q1.drawio.png)
+[View Flowchart](images/Q1.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) --> B[/Input number/]
+    B --> C{number % 2 == 0?}
+    C -- Yes --> D[/Display "Even"/]
+    C -- No --> E[/Display "No"/]
+    D --> F(End)
+    E --> F
+```
 
 ---
 
@@ -47,7 +57,7 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q2.drawio.png)
+[View Flowchart](images/Q2.drawio.png)
 
 ---
 
@@ -72,7 +82,13 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q3.drawio.png)
+[View Flowchart](images/Q3.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
+
 ---
 
 ## 4. Positive, Negative, or Zero Check
@@ -97,7 +113,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q4.drawio.png)
+[View Flowchart](images/Q4.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
 
@@ -126,7 +147,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q5.drawio.png)
+[View Flowchart](images/Q5.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 ---
 
 ## 6. Average Temperature Calculation
@@ -151,7 +177,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q6.drawio.png)
+[View Flowchart](images/Q6.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
 
@@ -173,7 +204,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q7.drawio.png)
+[View Flowchart](images/Q7.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
 
@@ -198,7 +234,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q8.drawio.png)
+[View Flowchart](images/Q8.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
 
@@ -224,7 +265,12 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q9.drawio.png)
+[View Flowchart](images/Q9.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
 
@@ -249,6 +295,11 @@ END
 
 ### ✔ Flowchart
 
-![Flowchart](images/Q10.drawio.png)
+[View Flowchart](images/Q10.drawio.png)
+
+```mermaid
+flowchart TD
+    A(Start) -->
+```
 
 ---
