@@ -279,7 +279,12 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[/Input average_mark/]
+    B --> C{ average_mark >= 50 ?}
+    C -- Yes --> D[/Display "Pass"/]
+    C -- No --> E[/Display "Fail"/]
+    E --> F(Stop)
+    C --> F
 ```
 
 ---
