@@ -167,7 +167,7 @@ START
     INPUT principal
     INPUT rate
     INPUT time
-    SI = (principal x rate x time) / 100
+    SI = (principal * rate * time) / 100
     PRINT "Simple Interest = ", SI    
 END
 ```
@@ -179,7 +179,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input principal, rate, time/]
-    B --> C[SI = (principal * rate * time) / 100]
+    B --> C[SI = (principal x rate x time) / 100]
     C --> D[/Display SI/]
     D --> E(Stop)
 ```
@@ -218,7 +218,7 @@ flowchart TD
     E --> F[day = day + 1]
     F --> C
     C -- No --> G[average_temperature = total_temperature / num_of_days]
-    G --> H [/Display average_temperature/]
+    G --> H[/Display average_temperature/]
     H --> I(Stop)
 ```
 
@@ -246,7 +246,10 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[/Input length, width/]
+    B --> C[area = length x width]
+    C --> D[/Display area/]
+    D --> F(Stop)
 ```
 
 ---
