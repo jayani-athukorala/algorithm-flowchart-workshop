@@ -20,7 +20,7 @@ END
 
 ### Flowchart
 
-[View Flowchart](images/Q1.drawio.png)
+[View Draw.io Flowchart](images/Q1.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -57,7 +57,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q2.drawio.png)
+[View Draw.io Flowchart](images/Q2.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -67,7 +67,7 @@ flowchart TD
     D --> E[sum = sum + mark]
     E --> F[count = count + 1]
     F --> C
-    C -- No --> G[average = sum / num_of_subjects]
+    C -- No --> G[average=sum/num_of_subjects]
     G --> H[/Display average/]
     H --> I(Stop)
 ```
@@ -94,14 +94,14 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q3.drawio.png)
+[View Draw.io Flowchart](images/Q3.drawio.png)
 
 ```mermaid
 flowchart TD
     A(Start) --> B[multiplier = 1]
     B --> C[/Input multiplicand/]
     C --> D{While<br>multiplier <= 10}
-    D -- Yes --> E[product = multiplicand * multiplier]
+    D -- Yes --> E[product=multiplicand*multiplier]
     E --> F[/Display product/]
     F --> G[multiplier = multiplier + 1]
     G --> D
@@ -132,7 +132,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q4.drawio.png)
+[View Draw.io Flowchart](images/Q4.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -174,12 +174,12 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q5.drawio.png)
+[View Draw.io Flowchart](images/Q5.drawio.png)
 
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input principal, rate, time/]
-    B --> C["SI=(principal*rate*time )/100"]
+    B --> C["SI=(principal * rate * time)/100"]
     C --> D[/Display SI/]
     D --> E(Stop)
 ```
@@ -207,7 +207,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q6.drawio.png)
+[View Draw.io Flowchart](images/Q6.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -242,7 +242,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q7.drawio.png)
+[View Draw.io Flowchart](images/Q7.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -275,7 +275,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q8.drawio.png)
+[View Draw.io Flowchart](images/Q8.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -311,7 +311,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q9.drawio.png)
+[View Draw.io Flowchart](images/Q9.drawio.png)
 
 ```mermaid
 flowchart TD
@@ -348,7 +348,7 @@ END
 
 ### ✔ Flowchart
 
-[View Flowchart](images/Q10.drawio.png)
+[View Draw.io Flowchart](images/Q10.drawio.png)
 
 ```mermaid
 flowchart TD
