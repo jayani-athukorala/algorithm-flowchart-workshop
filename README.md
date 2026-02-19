@@ -145,7 +145,7 @@ START
         day = day + 1
     END WHILE
     average_temperature = total_temperature / num_of_days
-    PRINT    
+    PRINT average_temperature   
 END
 ```
 
