@@ -70,7 +70,7 @@ START
     INPUT multiplicand
     WHILE multiplier <= 10 DO
         product = multiplicand * multiplier
-        PRINT multiplicand, " x ", multiplier, " = ",
+        PRINT multiplicand, " x ", multiplier, " = ", product
         multiplier = multiplier + 1
     END WHILE   
 END
