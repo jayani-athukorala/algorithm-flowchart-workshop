@@ -141,8 +141,10 @@ flowchart TD
     C -- Yes --> D[/Display "Positive"/]
     C -- No --> E{number < 0 ?}
     E -- Yes --> F[/Display "Negative"/]
-    F -- No --> G[/Display "Zero"/]
-    G --> H(Stop)
+    E -- No --> G[/Display "Zero"/]
+    D --> H(Stop)
+    F --> H
+    G --> H
 ```
 
 ---
@@ -176,7 +178,10 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[/Input principal, rate, time/]
+    B --> C[SI = (principal * rate * time) / 100]
+    C --> D[/Display SI/]
+    D --> E(Stop)
 ```
 ---
 
