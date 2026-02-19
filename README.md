@@ -22,16 +22,6 @@ END
 
 ![Flowchart](images/Q1.drawio.png)
 
-```mermaid
-flowchart TD
-    A([Start]) --> I[/Get input N/]
-    I --> B{N % 2 == 0 ?}
-    B -->|Yes| C[/Print Even/]
-    B -->|No| D[/Print Odd/]
-    C --> E([End])
-    D --> E([End])
-```
-
 ---
 
 ## 2. Calculate Total and Average Marks
@@ -58,10 +48,6 @@ END
 ### ✔ Flowchart
 
 ![Flowchart](images/Q2.drawio.png)
-
-```mermaid
-flowchart TD
-```
 
 ---
 
@@ -264,4 +250,5 @@ END
 ### ✔ Flowchart
 
 ![Flowchart](images/Q10.drawio.png)
+
 ---
