@@ -215,7 +215,7 @@ START
     SET factorial = 1
     SET count = number
     WHILE  count >= 1 DO
-        factorial = factorial * number
+        factorial = factorial * count
         count = count - 1
     END WHILE
     PRINT factorial
