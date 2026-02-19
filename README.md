@@ -179,7 +179,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input principal, rate, time/]
-    B --> C[SI = ( principal x rate x time ) / 100]
+    B --> C["SI=(principal*rate*time )/100"]
     C --> D[/Display SI/]
     D --> E(Stop)
 ```
@@ -214,10 +214,10 @@ flowchart TD
     A(Start) --> B[day = 1<br>num_of_days = 7<br> total_temperature = 0]
     B --> C{While<br>day <= num_of_days}
     C -- Yes --> D[/Input temperature/]
-    D --> E[total_temperature = total_temperature + temperature]
+    D --> E[total_temperature=total_temperature+temperature]
     E --> F[day = day + 1]
     F --> C
-    C -- No --> G[average_temperature = total_temperature / num_of_days]
+    C -- No --> G[average_temperature=total_temperature/num_of_days]
     G --> H[/Display average_temperature/]
     H --> I(Stop)
 ```
@@ -247,7 +247,7 @@ END
 ```mermaid
 flowchart TD
     A(Start) --> B[/Input length, width/]
-    B --> C[area = length x width]
+    B --> C[area = length * width]
     C --> D[/Display area/]
     D --> F(Stop)
 ```
@@ -355,7 +355,7 @@ flowchart TD
     A(Start) --> B[discount = 0]
     B --> C[/Input purchase_amount/]
     C --> D{purchase_amount > 1000}
-    D -- Yes --> E[discount = purchase_amount * 10 / 100]
+    D -- Yes --> E[discount=purchase_amount*10/100]
     D -- No --> F[/Display discount/]
     E --> F
     F --> G(Stop)
