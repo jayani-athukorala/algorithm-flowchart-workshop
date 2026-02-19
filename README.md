@@ -136,7 +136,13 @@ END
 
 ```mermaid
 flowchart TD
-    A(Start) -->
+    A(Start) --> B[/Input number/]
+    B --> C{number > 0 ?}
+    C -- Yes --> D[/Display "Positive"/]
+    C -- No --> E{number < 0 ?}
+    E -- Yes --> F[/Display "Negative"/]
+    F -- No --> G[/Display "Zero"/]
+    G --> H(Stop)
 ```
 
 ---
